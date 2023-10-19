@@ -6,6 +6,7 @@
   "scripts": {
     "sb:dev": "pnpm --filter @youtube-library-tutorial/storybook dev",
     "sb:build": "pnpm --filter @youtube-library-tutorial/storybook build",
+    "format:check": "prettier . --check",
     "format:write": "prettier . --write",
     "lint": "eslint --fix",
     "ci": "pnpm run format:write && pnpm run lint"

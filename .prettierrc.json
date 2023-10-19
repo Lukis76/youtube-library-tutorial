@@ -5,7 +5,6 @@
   "semi": false,
   "useTabs": false,
   "singleQuote": true,
-  "parser": "flow",
   "endOfLine": "auto",
   "arrowParens": "always",
   "trailingComma": "none",
