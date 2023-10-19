@@ -7,7 +7,7 @@
   },
   "extends": [
     "plugin:react/recommended",
-    // "plugin:prettier/recommended",
+    "plugin:prettier/recommended",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
     "standard-with-typescript"
@@ -27,6 +27,7 @@
     }
   },
   "rules": {
+    "@typescript-eslint/triple-slash-reference": "off",
     "no-console": "warn",
     "react/prop-types": "off",
     "react/jsx-uses-react": "off",
